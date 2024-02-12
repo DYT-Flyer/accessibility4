@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Blog about Ethical Foraging in Dayton, Ohio">
+    <title>A Blog about Ethical Foraging in Dayton, Ohio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+<nav class="sidebar">
+<ul>
+  <li><a href="#blog">Blog</a></li>
+  <li><a href="#foraging">Foraging</a></li>
+  <li><a href="#seasons">Seasons</a></li>
+  <li><a href="#hotspots">Hot Spots</a></li>
+  <li><a href="#resources">Resources</a></li>
+  <li><a href="#conclusions">Conclusions</a></li>
+  <li><a href="#questions">Questions</a></li>
+</ul>
+</nav>
+<main>
+<h1 id="blog">A Blog about Ethical Foraging in Dayton, Ohio</h1>
+<p>Dayton, Ohio, a city known for its rich history in aviation and innovation, also offers a hidden treasure trove for those interested in foraging. Foraging, the practice of gathering wild food for free, is not only a way to connect with nature but also a means to diversify one's diet with nutritious, locally-sourced foods. This guide aims to bridge the gap between urban living and the natural world, offering insights into the sustainable harvest of wild edibles that thrive in and around Dayton.</p>
+<h3 id="foraging">The Ethical Forager</h3>
+<p>Before embarking on a foraging journey, it's crucial to adopt an ethical approach. This means respecting private property, foraging only where it's legally permitted, and taking care to preserve the health of plant populations and their ecosystems. A good forager always harvests sustainably, taking only what they need and leaving plenty for wildlife and future growth.</p>
+
+<h3 id="seasons">Foraging Seasons in Dayton</h3>
+
+<p>Dayton's temperate climate and varied ecosystems, from riverbanks to urban parks and woodlands, provide a year-round foraging calendar. Here's a seasonal guide to some of the wild edibles you can find:
+</p>
+
+<ul>
+  <li>Spring: Spring is a prime time for foraging young greens. Look for ramps (wild leeks), morel mushrooms, and the tender leaves of dandelions and nettles. These early spring delicacies can be found in wooded areas and are a testament to the rebirth of nature.</li>
+  <li>Summer: As the weather warms, berries come into season. Blackberries, mulberries, and wild strawberries can be found in abundance along the Great Miami River and within many of Dayton's green spaces. Summer is also ideal for foraging wild herbs like mint and lemon balm.</li>
+  <li>Fall: Autumn brings a bounty of nuts and late-season fruits. Black walnuts, hickory nuts, and pawpaws are ripe for the picking. This season is also a second chance for mushroom foragers, with species like hen of the woods and puffballs emerging.</li>
+  <li>Winter: While winter may seem barren, it's an excellent time for harvesting tree barks and evergreen needles for teas. Pine, spruce, and cedar offer vitamin C-rich materials for those willing to brave the colder months.</li>
+</ul>
+
+<h3 id="hotspots">Foraging Hotspots in Dayton</h3>
+<figure>
+<div><img src="/Dayton.svg" width="400" height="400" alt="Description" title="Map of Dayton"></div>
+<figcaption>A Map of Dayton</figcaption>
+</figure>
+<ul>
+  <li>Five Rivers MetroParks: This network of natural areas offers diverse foraging opportunities. Each park has its unique ecosystem, from river corridors to dense woodlands, making it a forager's paradise.</li>
+  <li>The Great Miami Riverway: The riverbanks and surrounding areas are rich with wild edibles, especially berries and herbs during the warmer months.</li>
+  <li>Community Gardens and Urban Green Spaces: While foraging in these areas, ensure you have permission, but many community gardens encourage the gathering of certain wild plants.</li>
+</ul>
+
+<h3 id="resources">Foraging Resources</h3>
+<p>For those new to foraging, several resources are available to ensure safe and successful harvests. Local foraging workshops, guided walks, and field guides specifically tailored to Ohio's flora are invaluable. Online forums and social media groups dedicated to foraging in Ohio can also provide community support and tips.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+<p>Foraging in Dayton, Ohio, offers a unique way to engage with the environment, promoting both sustainable living and a deeper understanding of local ecosystems. As we bridge the gap between urban living and the natural world, foraging stands out as a practice that not only nourishes the body but also the soul, reminding us of the abundance nature holds, even in our own backyards. Whether you're a seasoned forager or new to the practice, Dayton's landscapes await, ready to offer their bounty to those willing to explore.</p>
+
+<h3 id="questions">Questions</h3>
+<p>If you have any questions or want to get into contact, please fill out the form below. Thanks.</p>
+
+<form action="/submit-form" method="POST" novalidate>
+    <div class="form-row">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-row">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-row">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    </div>
+    <div class="form-row">
+        <button type="submit">Send</button>
+    </div>
+    <div id="validationModal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="validationMessage"></p>
+  </div>
+</div>
+
+</form>
+
+</main>
+</div>
+
+</body>
+</html>
+
