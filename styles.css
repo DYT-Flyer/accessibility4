@@ -103,3 +103,9 @@ textarea {
   text-decoration: none;
   cursor: pointer;
 }
+
+figure {
+  text-align: center; /* Centers the content inside the <figure> */
+  width: fit-content; /* Makes the figure's width fit its content */
+  margin: auto; /* Centers the figure block within its container */
+}
